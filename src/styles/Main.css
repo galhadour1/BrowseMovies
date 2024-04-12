@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background: pink;
+}
+
+.main-body {
+  display: flex;
+  height: 100%;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-header {
+  margin: 70px 0px;
+  place-self: center;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

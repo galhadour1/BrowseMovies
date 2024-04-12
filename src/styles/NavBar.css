@@ -1,0 +1,56 @@
+.navbar-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  flex: 1;
+  padding: 0px 20px;
+  text-align: start;
+  color: white;
+}
+
+.navbar-title {
+  color: white;
+}
+
+.genres-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: pink;
+  transition: background-color 0.3s ease;
+  color: black;
+  font-size: medium;
+  border: none;
+  width: fit-content;
+  place-self: center;
+  font-weight: 400;
+}
+
+.navbar-btn:hover {
+  background-color: white;
+}
+
+.filters-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.filters-dropdown {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}

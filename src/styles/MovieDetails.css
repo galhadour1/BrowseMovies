@@ -1,0 +1,41 @@
+.movie-details-container {
+  display: flex;
+  background: pink;
+  padding: 0px 20px 0px 0px;
+  height: 100vh;
+}
+
+.movie-details-right {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: medium;
+  font-weight: 400;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.movie-title {
+}
+
+.movie-details-img {
+  border-radius: 10px;
+  height: 100vh;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back-btn {
+  width: fit-content;
+  place-self: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 10px 40px;
+  font-size: large;
+  place-self: end;
+}

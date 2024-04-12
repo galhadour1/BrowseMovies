@@ -1,0 +1,40 @@
+.movie-display-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex: 1 0 calc(10% - 20px);
+  cursor: pointer;
+}
+
+.movie-img {
+  border-radius: 10px 10px 0px 0px;
+  height: 300px;
+  width: 200px;
+}
+
+.movie-name {
+  font-size: large;
+  font-weight: 700;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  margin: 0px 10px;
+}
+
+.img-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-title-wrapper:hover {
+  transform: scale(1.2);
+}

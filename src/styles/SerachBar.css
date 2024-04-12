@@ -1,0 +1,13 @@
+.search-container {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbar-input {
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
